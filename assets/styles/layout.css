@@ -149,3 +149,17 @@ section {
   width: 150px;
   height: 198.32px;
 }
+
+@media (max-width: 1440px) {
+  section {
+    font-size: 40px;
+  }
+  .yes {
+    left: 500px;
+    top: 650px;
+  }
+  .no {
+    top: 650px;
+    right: 500px;
+  }
+}
