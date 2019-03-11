@@ -1,0 +1,140 @@
+* {
+  transition-duration: .2s;
+}
+
+.glaz {
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border-radius: 50%;
+  background-color: #C4222C;
+  top: -700px;
+  left: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.zrachok {
+  background-color: white;
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.background_red {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: #C4222C;
+}
+
+.background_black {
+  width: 0;
+  height: 0;
+  position: absolute;
+  background-color: #000000;
+}
+
+.red {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  top: -400px;
+  background-color: #cc0000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.white {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: white;
+}
+
+section {
+  height: 400px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  font-size: 60px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  flex-direction: column;
+}
+
+.hi {
+  opacity: 0;
+  font-size: 80px;
+}
+
+.what {
+  opacity: 0;
+}
+
+.want {
+  opacity: 0;
+}
+
+.yes, .no {
+  position: absolute;
+  color: white;
+  font-size: 80px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  padding: 20px 20px;
+  opacity: 0
+}
+
+.yes:hover, .no:hover {
+  background-color: White;
+  color: #C4222C;
+}
+
+.yes {
+  top: 750px;
+  left: 650px;
+}
+
+.no {
+  top: 750px;
+  right: 650px;
+}
+
+.img {
+  opacity: 0;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.text {
+  opacity: 0;
+  color: #cc0000;
+  font-size: 30px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  padding-left: 20px;
+  padding-top: 7px;
+}
+
+.win {
+  opacity: 0;
+  color: #cc0000;
+  font-size: 50px;
+  font-family: 'PT Sans Caption', sans-serif;
+  font-weight: 700;
+  position: absolute;
+  top: 500px;
+  laeft: 500px;
+}
