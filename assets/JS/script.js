@@ -85,10 +85,16 @@ function switchOff () {
     translateX: -120,
     translateY: -50,
   })
+
+  anime({
+    targets: ".logo",
+    opacity: 1,
+    delay: 4500,
+  })
   }
 
 let begining = anime.timeline({
-  duration: 400,
+  duration: 800,
   easing: "linear"
 });
 
@@ -139,16 +145,7 @@ function startGame() {
   })
 
   function ending() {
-    anime({
-      targets: ".red, .white",
-      opacity: 0
-    })
-
-    anime({
-      delay: 1000,
-      targets: ".win",
-      opacity: 1
-    })
+    console.log(1);
   }
 
   changeAnim();
@@ -163,7 +160,7 @@ $( "#target_yes" ).click(function() {
 });
 
 $( "#target" ).click(function() {
-  ending()
+  ending();
 });
 
 
@@ -181,7 +178,7 @@ function animeBall () {
       left: getRandomArbitrary(0, 1500),
     })
     animeBall()
-  }, 300)
+  }, 800)
 }
 
 function animeZrachok () {

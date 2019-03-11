@@ -17,6 +17,10 @@
 }
 
 .zrachok {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: white;
   position: relative;
   width: 300px;
@@ -136,5 +140,11 @@ section {
   font-weight: 700;
   position: absolute;
   top: 500px;
-  laeft: 500px;
+  left: 500px;
+}
+
+.logo {
+  opacity: 0;
+  width: 150px;
+  height: 198.32px;
 }
