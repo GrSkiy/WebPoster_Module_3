@@ -159,8 +159,8 @@ $( "#target_yes" ).click(function() {
   startGame();
 });
 
-$( "#target" ).click(function() {
-  ending();
+$( "#logo" ).click(function() {
+  go();
 });
 
 
@@ -178,7 +178,7 @@ function animeBall () {
       left: getRandomArbitrary(0, 1500),
     })
     animeBall()
-  }, 800)
+  }, 500)
 }
 
 function animeZrachok () {
