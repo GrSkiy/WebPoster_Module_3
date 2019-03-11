@@ -81,14 +81,17 @@ section {
 .hi {
   opacity: 0;
   font-size: 80px;
+  cursor: default;
 }
 
 .what {
   opacity: 0;
+  cursor: default;
 }
 
 .want {
   opacity: 0;
+  cursor: default;
 }
 
 .yes, .no {
@@ -104,6 +107,7 @@ section {
 .yes:hover, .no:hover {
   background-color: White;
   color: #C4222C;
+  cursor: pointer;
 }
 
 .yes {

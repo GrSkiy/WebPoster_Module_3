@@ -94,7 +94,7 @@ function switchOff () {
   }
 
 let begining = anime.timeline({
-  duration: 800,
+  duration: 1200,
   easing: "linear"
 });
 
@@ -160,7 +160,7 @@ $( "#target_yes" ).click(function() {
 });
 
 $( "#logo" ).click(function() {
-  go();
+  ending();
 });
 
 
@@ -200,11 +200,13 @@ function changeAnim () {
   anime ({
     targets: ".text",
     opacity: 1,
-    delay: 800,
+    duration: 1500,
+    delay: 2000,
   })
   anime({
     targets: ".img",
     opacity: 1,
-    delay: 800,
+    duration: 1500,
+    delay: 2000,
   })
 }
